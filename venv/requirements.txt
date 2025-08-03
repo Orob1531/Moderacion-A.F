@@ -1,0 +1,15 @@
+# Discord bot core
+py-cord
+aiohttp
+
+# Base de datos (elige una)
+motor              # MongoDB (NoSQL, gratuito)
+# postgrest-py     # Descomenta si usas Supabase (PostgreSQL)
+
+# Configuración y seguridad
+python-dotenv
+
+# Panel web (opcional)
+fastapi
+uvicorn
+jinja2
